@@ -21,9 +21,9 @@ ckpt96 = ocp.StandardCheckpointer()
 model63 = get_model()
 model96 = get_model("lorenz96")
 
-l63_10_ckpt_path= "/home/noah/Documents/Uni/DSML/final2/checkpoints/1709823961.9568238__96test1__9"
+l63_10_ckpt_path= "/home/noah/Documents/Uni/DSML/final2/checkpoints/1709823961.9568238__63test1__9"
 
-l96_10_ckpt_path = "/home/noah/Documents/Uni/DSML/final2/checkpoints/1709826158.579993__96test1__0"
+l96_10_ckpt_path = "/home/noah/Documents/Uni/DSML/final2/checkpoints/1709826158.579993__96test1__9"
 
 model63vars_10 = ckpt63.restore(l63_10_ckpt_path)
 
